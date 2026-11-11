@@ -1,0 +1,33 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model checkpoints & large weights
+*.h5
+*.keras
+*.tflite
+*.ckpt
+
+# Datasets and archives
+cifake/
+*.zip
+*.tar.gz
+
+# Credentials & API keys
+kaggle.json
+.kaggle/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor files
+.vscode/
+.idea/
